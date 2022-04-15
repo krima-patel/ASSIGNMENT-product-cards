@@ -1,4 +1,4 @@
-.card {
+.container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -8,4 +8,16 @@ h2 {
   border-radius: 1px;
   border-color: lightblue;
   text-align: center;
+  font-family: 'Arvo', serif;
 }
+
+p {
+  font-family: 'Arvo', serif;
+}
+
+.list-group-item {
+  background-color: grey;
+  color: yellow;
+}
+
+@media (max-width: 200px)
